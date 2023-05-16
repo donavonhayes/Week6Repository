@@ -23,6 +23,7 @@ describe('Deck, #Player constructors', function() {
         // console.log('This is player 2', newPlayer2);
         for (let x = 0; x < 26; x++) {
             newPlayer1.takeOneCard(newDeck.dealACard())
+            
             newPlayer2.takeOneCard(newDeck.dealACard())
         }
         
